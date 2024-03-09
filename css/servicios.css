@@ -18,7 +18,7 @@ header img {
 }
 .container {
     padding: 20px;
-    margin-bottom: 60px; /* Aumentar el margen inferior para dar espacio al footer */
+    margin-bottom: 20px; /* Aumentar el margen inferior para dar espacio al footer */
     margin-top: 50px;
 
 }
@@ -30,17 +30,17 @@ h1 {
     text-align: center; /* Centrar el texto */
     margin-bottom: 10px; /* Agregar margen inferior para separarlo de otros elementos */
 }
-
 .servicios a {
     display: block;
     text-align: center;
-    padding: 15px 20px;
-    margin-bottom: 5px;
+    padding: 15px 10px;
     border-radius: 20px;
     background-color: #c03f3f;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    width: 300px;
+    margin: 3% auto;
 }
 
 .servicios a:hover {
@@ -72,7 +72,7 @@ button:hover {
 }
 
 footer {
-    padding: 10px 10px;
+    padding: 0 10px;
     text-align: center;
     color: black;
     position: fixed;

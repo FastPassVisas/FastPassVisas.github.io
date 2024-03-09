@@ -1,11 +1,11 @@
-
 body {
-    font-family: "Archivo", sans-serif; /* Cambiar la fuente a "Archivo" */
+    font-family: "Archivo", sans-serif;
     font-variation-settings: "wdth" 100;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
 }
+
 header {
     text-align: center;
     width: 250px;
@@ -13,56 +13,56 @@ header {
     margin: 0 auto;
     margin-top: 40px;
 }
+
 header img {
     max-width: 100%;
     height: auto;
 }
-.container {
-    padding: 20px;
-    margin-bottom: 60px; /* Aumentar el margen inferior para dar espacio al footer */
-    margin-top: 50px;
 
-}
 h1 {
-    color: black; /* Color azul similar al que ya estás utilizando */
-    font-size: 25px; /* Tamaño de fuente para el encabezado principal */
-    
-    font-weight: bold; /* Negrita para el encabezado principal */
-    text-align: center; /* Centrar el texto */
-    margin-bottom: 10px; /* Agregar margen inferior para separarlo de otros elementos */
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 h2 {
-    color: black; /* Color azul similar al que ya estás utilizando */
-    font-size: 15px; /* Tamaño de fuente un poco más pequeño para el encabezado secundario */
+    color: black;
+    font-size: 15px;
     font-style: italic;
-    text-align: center; /* Centrar el texto */
-    margin-bottom: 20px; /* Agregar margen inferior para separarlo de otros elementos */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.social-buttons {
+.buttons {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-top: 50px;
 }
+
 a {
     text-decoration: none;
+    margin: 10px;
 }
+
 button {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos dentro del botón */
-    justify-content: center; /* Centra horizontalmente los elementos dentro del botón */
+    align-items: center;
+    justify-content: center;
     background-color: #141d9ddf;
     color: #fff;
     border: none;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
     font-size: 16px;
     cursor: pointer;
-    width: 75%;
     transition: background-color 0.3s ease;
-    margin: 20px 50px;
 }
+
 button:hover {
     background-color: #c03f3f;
 }
@@ -71,33 +71,12 @@ button:hover {
     margin-right: 10px;
     font-size: 25px;
 }
+
 footer {
-    padding: 10px 10px;
+    padding: 0 10px;
     text-align: center;
     color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-@media screen and (min-width: 1024px) {
-    .container {
-        margin-top: 50px;
-        margin-bottom: 60px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    button {
-        width: 80%;
-        max-width: 300px;
-        margin: 20px auto;
-        font-size: 18px;
-    }
 }
