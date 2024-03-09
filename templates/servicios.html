@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/servicios.css">
+    <script src="https://kit.fontawesome.com/609deaaf3a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Servicios</title>
+</head>
+
+<body>
+    <header>
+        <img src="/img/logo.png" alt="FastPass Visa">
+    </header>
+    <div class="container">
+        <h1>Servicios</h1>
+        <div class="servicios">
+            <a href="javascript:void(0)" onclick="redirectWhatsApp('Quiero información sobre Asesoría: 🛩️🗺️')"><i class="fa-solid fa-circle-info"></i>Asesoría</a>
+            <a href="javascript:void(0)" onclick="redirectWhatsApp('Quiero información sobre Pasaporte Mexicano 🇲🇽')"><i class="fa-solid fa-passport"></i>Pasaporte Mexicano</a>
+            <a href="javascript:void(0)" onclick="redirectWhatsApp('Quiero información sobre Pasaporte Americano 🇺🇸')"><i class="fa-solid fa-passport"></i>Pasaporte Americano</a>
+            <a href="javascript:void(0)" onclick="redirectWhatsApp('Quiero información sobre Visa Americana 🌟')"><i class="fa-solid fa-flag-usa"></i>Visa Americana</a>
+            <a href="javascript:void(0)" onclick="redirectWhatsApp('Quiero información sobre Citas de Emergencia ⏰📆')"><i class="fa-solid fa-calendar-check"></i>Citas de Emergencia</a>
+            <a href="javascript:void(0)" onclick="redirectWhatsApp('Quiero información sobre Experiencia en visas rechazadas/canceladas 🚨')"><i class="fa-solid fa-circle-exclamation"></i>Experiencia en visas rechazadas/canceladas</a>
+        </div>
+    </div>
+    <a href="/index.html"><button><i class="fa-solid fa-house"></i>Inicio</button></a>
+    <footer>
+        <p>FastPass Visa &copy; 2024</p>
+    </footer>
+    <script>
+        function redirectWhatsApp(message) {
+            var whatsappURL = "https://wa.me/523143526003?text=" + encodeURIComponent(message);
+            window.open(whatsappURL, "_blank");
+        }
+    </script>
+</body>
+
+</html>
+
